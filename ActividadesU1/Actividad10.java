@@ -18,10 +18,9 @@ public class Actividad10 {
 		System.out.println("¿Necesitas ir a la biblioteca?");
 		biblio = sc.nextBoolean();
 		
-		salir = biblio || (lluvia == false && tareas);
+		salir = biblio || (!lluvia && tareas);
 		
 		System.out.println("¿Se puede salir?\n" + salir);
 
 	}
-
 }
