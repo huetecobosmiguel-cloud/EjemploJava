@@ -11,7 +11,7 @@ public class Actividad5 {
 		System.out.println("Introduzca un número decimal:");
 		num = sc.nextDouble();
 		
-		if (((int) num == 0) && (num != 0)) {
+		if ((int) num == 0 && num != 0) {
 			System.out.println(num + " es un número casi-cero");
 		} else {
 			System.out.println(num + " NO es un número casi-cero");
